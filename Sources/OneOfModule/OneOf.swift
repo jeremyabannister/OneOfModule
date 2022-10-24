@@ -6,96 +6,91 @@
 //
 
 ///
-public enum OneOf1 <T0> {
-    case first (T0)
+public enum OneOf2 <First, Second> {
+    case first (First)
+    case second (Second)
 }
 
 ///
-public enum OneOf2 <T0, T1> {
-    case first (T0)
-    case second (T1)
+public enum OneOf3 <First, Second, Third> {
+    case first (First)
+    case second (Second)
+    case third (Third)
 }
 
 ///
-public enum OneOf3 <T0, T1, T2> {
-    case first (T0)
-    case second (T1)
-    case third (T2)
+public enum OneOf4 <First, Second, Third, Fourth> {
+    case first (First)
+    case second (Second)
+    case third (Third)
+    case fourth (Fourth)
 }
 
 ///
-public enum OneOf4 <T0, T1, T2, T3> {
-    case first (T0)
-    case second (T1)
-    case third (T2)
-    case fourth (T3)
+public enum OneOf5 <First, Second, Third, Fourth, Fifth> {
+    case first (First)
+    case second (Second)
+    case third (Third)
+    case fourth (Fourth)
+    case fifth (Fifth)
 }
 
 ///
-public enum OneOf5 <T0, T1, T2, T3, T4> {
-    case first (T0)
-    case second (T1)
-    case third (T2)
-    case fourth (T3)
-    case fifth (T4)
+public enum OneOf6 <First, Second, Third, Fourth, Fifth, Sixth> {
+    case first (First)
+    case second (Second)
+    case third (Third)
+    case fourth (Fourth)
+    case fifth (Fifth)
+    case sixth (Sixth)
 }
 
 ///
-public enum OneOf6 <T0, T1, T2, T3, T4, T5> {
-    case first (T0)
-    case second (T1)
-    case third (T2)
-    case fourth (T3)
-    case fifth (T4)
-    case sixth (T5)
+public enum OneOf7 <First, Second, Third, Fourth, Fifth, Sixth, Seventh> {
+    case first (First)
+    case second (Second)
+    case third (Third)
+    case fourth (Fourth)
+    case fifth (Fifth)
+    case sixth (Sixth)
+    case seventh (Seventh)
 }
 
 ///
-public enum OneOf7 <T0, T1, T2, T3, T4, T5, T6> {
-    case first (T0)
-    case second (T1)
-    case third (T2)
-    case fourth (T3)
-    case fifth (T4)
-    case sixth (T5)
-    case seventh (T6)
+public enum OneOf8 <First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eigth> {
+    case first (First)
+    case second (Second)
+    case third (Third)
+    case fourth (Fourth)
+    case fifth (Fifth)
+    case sixth (Sixth)
+    case seventh (Seventh)
+    case eigth (Eigth)
 }
 
 ///
-public enum OneOf8 <T0, T1, T2, T3, T4, T5, T6, T7> {
-    case first (T0)
-    case second (T1)
-    case third (T2)
-    case fourth (T3)
-    case fifth (T4)
-    case sixth (T5)
-    case seventh (T6)
-    case eigth (T7)
+public enum OneOf9 <First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eigth, Ninth> {
+    case first (First)
+    case second (Second)
+    case third (Third)
+    case fourth (Fourth)
+    case fifth (Fifth)
+    case sixth (Sixth)
+    case seventh (Seventh)
+    case eigth (Eigth)
+    case ninth (Ninth)
 }
 
 ///
-public enum OneOf9 <T0, T1, T2, T3, T4, T5, T6, T7, T8> {
-    case first (T0)
-    case second (T1)
-    case third (T2)
-    case fourth (T3)
-    case fifth (T4)
-    case sixth (T5)
-    case seventh (T6)
-    case eigth (T7)
-    case ninth (T8)
-}
-
-///
-public enum OneOf10 <T0, T1, T2, T3, T4, T5, T6, T7, T8, T9> {
-    case first (T0)
-    case second (T1)
-    case third (T2)
-    case fourth (T3)
-    case fifth (T4)
-    case sixth (T5)
-    case seventh (T6)
-    case eigth (T7)
-    case ninth (T8)
-    case tenth (T9)
+public enum OneOf10 <First, Second, Third, Fourth, Fifth, Sixth, Seventh, Eigth, Ninth, Tenth> {
+    case first (First)
+    case second (Second)
+    case third (Third)
+    case fourth (Fourth)
+    case fifth (Fifth)
+    case sixth (Sixth)
+    case seventh (Seventh)
+    case eigth (Eigth)
+    case ninth (Ninth)
+    case tenth (Tenth)
 }
